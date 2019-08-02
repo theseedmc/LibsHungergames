@@ -41,13 +41,12 @@ public class MainConfig extends BaseConfig {
     /**
      * Does the plugin check for updates..
      */
-    private boolean checkUpdates = true;
+    private boolean checkUpdates = false;
 
     /**
      * Commands to run before the server shuts down
      */
-    private String[] commandsToRunBeforeShutdown = new String[] { "kick Notch get out of here notch!",
-            "kick MinecraftChick Yer banned" };
+    private String[] commandsToRunBeforeShutdown = new String[] {};
     /**
      * Command to stop the server with
      */
@@ -86,7 +85,7 @@ public class MainConfig extends BaseConfig {
     /**
      * How long do I wait before shutting down the game
      */
-    private int gameShutdownDelay = 33;
+    private int gameShutdownDelay = 10;
 
     /**
      * How much hearts does mushroom stew heal
@@ -135,7 +134,7 @@ public class MainConfig extends BaseConfig {
     /**
      * If there is a height limit. What should I set it to
      */
-    private int maxHeightLimit = 128;
+    private int maxHeightLimit = 256;
     private boolean messagePlayerMotdOnJoin = true;
     /**
      * Is metrics enabled

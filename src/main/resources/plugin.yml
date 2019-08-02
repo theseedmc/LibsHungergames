@@ -1,7 +1,8 @@
-name: LibsHungergames
+name: SeedGames
 main: me.libraryaddict.Hungergames.Hungergames
-author: libraryaddict
-version: ${project.version}
-website: http://www.spigotmc.org/resources/libs-hungergames.55/
+author: TechToolbox (@nkomarn)
+version: Build ${version}
+description: A custom fork of LibHungergames for The Seed! Compiled ${maven.build.timestamp}.
 load: startup
-softdepend: [LibsDisguises, Vault, TerrainControl, ProtocolLib]
+depend: [ProtocolLib]
+softdepend: [LibsDisguises, Vault, TerrainControl]
